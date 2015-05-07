@@ -1,0 +1,23 @@
+{
+  "name": "react-google-maps-example",
+  "description": "react-google-maps-example",
+  "repository": "git@github.com:sugarshin/react-google-maps-example.git",
+  "scripts": {
+    "start": "budo main.cjsx:main.js -v -- -t coffee-reactify --extension='.cjsx' | garnish"
+  },
+  "author": "sugarshin",
+  "license": "MIT",
+  "engines": {
+    "node": "0.12.x"
+  },
+  "devDependencies": {
+    "budo": "^4.0.0",
+    "coffee-reactify": "^3.0.0",
+    "garnish": "^2.1.3",
+    "watchify": "^3.2.1"
+  },
+  "dependencies": {
+    "react": "^0.13.2",
+    "react-google-maps": "^1.1.2"
+  }
+}
